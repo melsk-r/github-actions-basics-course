@@ -12,7 +12,7 @@ jobs:
         uses: srfrnk/current-time@master
         id: current-time
         with:
-          format: MMDDYY
+          format: YYYYMMDD
       - name: Use current time
         env:
           TIME: "${{ steps.current-time.outputs.time }}"
