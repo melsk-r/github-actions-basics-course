@@ -1,4 +1,4 @@
-name: Get some time
+name: Do you have some time
 
 on:
   workflow_dispatch:
