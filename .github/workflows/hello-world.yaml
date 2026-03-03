@@ -1,4 +1,4 @@
-name: Hello World
+ name: Hello World
 
 on:
   workflow_dispatch
@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Say hello
-        run: echo "Hello World"
+        run: echo "Hello Real World"
