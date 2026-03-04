@@ -1,10 +1,10 @@
 name: Do you have some time
 
 on:
-#  workflow_dispatch:
-  push:
-    branches:
-      - my_course_start
+  workflow_dispatch:
+#  push:
+#    branches:
+#      - my_course_start
 
 jobs:
   give-the-current-time:
