@@ -1,7 +1,10 @@
 name: Do you have some time
 
 on:
-  workflow_dispatch:
+#  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   give-the-current-time:
