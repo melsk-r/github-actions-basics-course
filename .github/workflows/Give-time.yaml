@@ -10,14 +10,15 @@ jobs:
   give-the-current-time:
     runs-on: ubuntu-latest
     steps:
-      - name: Get current time
-        uses: srfrnk/current-time@v1.1.0
-        id: current-time
-        with:
-          format: YYYYMMDD
+#      - name: Get current time
+#        uses: srfrnk/current-time@v1.1.0
+#        id: current-time
+#        with:
+#          format: YYYYMMDD
           
       - name: Use current time
-        env:
-          TIME: ${{ steps.current-time.outputs.time }}
-          F_TIME: ${{ steps.current-time.outputs.formattedTime }}
-        run: echo "$TIME $F_TIME"
+#        env:
+#          TIME: ${{ steps.current-time.outputs.time }}
+#          F_TIME: ${{ steps.current-time.outputs.formattedTime }}
+#        run: echo "$TIME $F_TIME"
+        run: echo "Hello dude!"
