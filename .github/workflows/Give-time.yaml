@@ -4,7 +4,7 @@ on:
 #  workflow_dispatch:
   push:
     branches:
-      - main
+      - my_course_start
 
 jobs:
   give-the-current-time:
