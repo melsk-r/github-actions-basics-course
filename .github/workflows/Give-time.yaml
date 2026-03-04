@@ -15,6 +15,6 @@ jobs:
           
       - name: Use current time
         env:
-          TIME: "${{ steps.current-time.outputs.time }}"
-          F_TIME: "${{ steps.current-time.outputs.formattedTime }}"
-        run: echo $TIME $F_TIME
+          TIME: ${{ steps.current-time.outputs.time }}
+          F_TIME: ${{ steps.current-time.outputs.formattedTime }}
+        run: echo "$TIME $F_TIME"
