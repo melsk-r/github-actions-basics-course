@@ -2,20 +2,17 @@ name: Do you have some time
 
 on:
   workflow_dispatch:
-#  push:
-#    branches:
-#      - my_course_start
 
 jobs:
   give-the-current-time:
     runs-on: ubuntu-latest
-
     steps:
       - name: Get current time
         uses: srfrnk/current-time@v1
         id: current-time
         with:
           format: YYYYMMDD
+          
       - name: Use current time
         env:
           TIME: "${{ steps.current-time.outputs.time }}"
