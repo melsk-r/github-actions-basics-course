@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Get current time
-        uses: srfrnk/current-time@master
+        uses: srfrnk/current-time@v1
         id: current-time
         with:
           format: YYYYMMDD
