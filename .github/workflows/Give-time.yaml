@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get current time
-        uses: srfrnk/current-time@master
+        uses: srfrnk/current-time@v1.1.0
         id: current-time
         with:
           format: YYYYMMDD
